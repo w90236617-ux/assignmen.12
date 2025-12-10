@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+.icon{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.row{
+     display: flex;
+      align-items: center;
+     flex-wrap: wrap;
+      justify-content: space-between;
+}
+.w-80{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;;
+    
+}
+.anchores{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    column-gap: 25px;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.button1{
+    background-color: #382525;
+    color: white;
+    padding: 5px 18px;
+    border-radius:10px;
+}
+/* hero section */
+#hero-section{
+    background-color: #3F1919;
+    padding: 87px 0px;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.hero-text{
+    margin: 20px;
+}
+#hero-section button{
+    padding: 14px 28px;
+    color: white;
+    border-radius: 10px;
+    background-color: #E26464;
+}
+/* grid section */
+#grid-section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 250px;
+    height: 166.67px;
+    padding-bottom: 15px;
+}
+.card{
+    padding:20px 30px;
+    background-color: #D9D9D9;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+#grid-section h3,p,a{
+    padding-bottom: 15px;
+}
+.grid-p{
+    text-align: right;
+}
+.grid-80{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 86px;
+}
+/* footer section */
+footer{
+    background-color: #3F1919;
+}
+.footer-row{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 87px;
+    
+}
+footer div{
+    width: 180px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+footer h3{
+    padding-bottom: 15px;
+    padding-top: 30px;
+    font-weight: normal;
+}
+.footer-a{
+    list-style: none;
+    display: table-row;
+}
+.footer-button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-button button{
+    padding: 5px;
+    background-color: #E26464;
+    border-style: none;
+}
+.copyright{
+    background-color: #E26464;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.footer-blog{
+    font-size: 30px;
+    font-weight: bold;
+}
